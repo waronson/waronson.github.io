@@ -35,9 +35,9 @@ const CONFIG = {
         {
           title: 'FabuLingua',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'FabuLingua is a language learning mobile app for kids, with a large catalog of original virtual stories and games.',
           imageUrl:
-            'https://drive.google.com/uc?export=download&id=1HNGsgDDl_v1W7rjOs6lAEYM52J637m22',
+            'https://storage.googleapis.com/nk-web-assets/project-fabulingua.jpeg',
           link: 'https://fabulingua.com',
         },
         {
