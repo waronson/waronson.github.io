@@ -95,7 +95,7 @@ const ExternalProjectCard = ({
               <div className="px-4">
                 <div className="text-center w-full">
                   <h1 className="font-large text-center opacity-60 mb-2">
-                    <b>{item.title}</b>
+                    {item.title}
                   </h1>
                   {item.imageUrl && (
                     <div className="avatar opacity-90">
