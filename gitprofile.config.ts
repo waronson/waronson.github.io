@@ -41,17 +41,21 @@ const CONFIG = {
           link: 'https://fabulingua.com',
         },
         {
-          title: 'Project Name',
+          title: 'Vital Recall',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A short interactive learning experience, showing off the inside of the human circulatory system.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-16-10h45m02s090.png',
+          link: '',
         },
       ],
     },
   },
-  seo: { title: 'William Aronson: Developer Portfolio', description: '', imageURL: '' },
+  seo: {
+    title: 'William Aronson: Developer Portfolio',
+    description: '',
+    imageURL: '',
+  },
   social: {
     email: 'william.aronson@gmail.com',
     phone: '+1 603-275-7094',
