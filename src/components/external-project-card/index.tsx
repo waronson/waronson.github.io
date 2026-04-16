@@ -1,12 +1,10 @@
 import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
-import { MdOpenInNew } from 'react-icons/md';
 import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
 const ExternalProjectCard = ({
   externalProjects,
-  header,
   loading,
   googleAnalyticId,
 }: {
@@ -133,28 +131,11 @@ const ExternalProjectCard = ({
           <div className="card-body p-8">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
               <div className="flex items-center space-x-3">
-                {loading ? (
-                  skeleton({
-                    widthCls: 'w-12',
-                    heightCls: 'h-12',
-                    className: 'rounded-xl',
-                  })
-                ) : (
-                  <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-xl">
-                    <MdOpenInNew className="text-2xl" />
-                  </div>
-                )}
+                {}
                 <div className="min-w-0 flex-1">
-                  <h3 className="text-base sm:text-lg font-bold text-base-content truncate">
-                    {loading
-                      ? skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
-                      : header}
+                  <h3 className="text-2xl font-bold text-base-content truncate">
+                    My Work
                   </h3>
-                  <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
-                    {loading
-                      ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Showcasing ${externalProjects.length} projects`}
-                  </div>
                 </div>
               </div>
             </div>

@@ -41,12 +41,18 @@ const CONFIG = {
           link: 'https://fabulingua.com',
         },
         {
+          title: 'CanopyVR',
+          description:
+            'One of the first "metaverse" apps, CanopyVR was a social space that supported hundreds of users in a single room.',
+          imageUrl:
+            'https://storage.googleapis.com/nk-web-assets/movie_001.00_00_00_00.Still001.jpg',
+        },
+        {
           title: 'Vital Recall',
           description:
             'A short interactive learning experience, showing off the inside of the human circulatory system.',
           imageUrl:
             'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-16-10h45m02s090.png',
-          link: '',
         },
       ],
     },
