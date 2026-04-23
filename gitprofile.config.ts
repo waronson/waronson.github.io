@@ -38,14 +38,15 @@ const CONFIG = {
             'FabuLingua is a language learning mobile app for kids, with a large catalog of original virtual stories and games.',
           imageUrl:
             'https://storage.googleapis.com/nk-web-assets/project-fabulingua.jpeg',
-          link: 'https://fabulingua.com',
+          link: 'https://www.youtube.com/watch?v=ZQzfjSVKAXI',
         },
         {
-          title: 'CanopyVR',
+          title: 'Metabrite',
           description:
-            'One of the first "metaverse" apps, CanopyVR was a social space that supported hundreds of users in a single room.',
+            'One of the first "metaverse" apps, Metabrite was a social space that supported hundreds of users in a single room.',
           imageUrl:
             'https://storage.googleapis.com/nk-web-assets/movie_001.00_00_00_00.Still001.jpg',
+			link: 'https://www.youtube.com/watch?v=DgOfbsHYdhc'
         },
         {
           title: 'Vital Recall',
@@ -53,7 +54,14 @@ const CONFIG = {
             'A short interactive learning experience, showing off the inside of the human circulatory system.',
           imageUrl:
             'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-16-10h45m02s090.png',
+			link: 'https://youtu.be/C2Drye0MqQI'
         },
+		{
+			title: 'Vital Recall CSL Platform',
+			description: 'An augmented reality platform for clinical trial education, designed to inform patients in an engaging, easy to use app.',
+			imageUrl: 'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-23-11h58m49s676.png',
+			link: 'https://www.youtube.com/shorts/Qg6j53r6Jf8'
+		}
       ],
     },
   },
