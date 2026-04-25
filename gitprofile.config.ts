@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/uc?export=download&id=1d_XfOqVoTZ0tnY0waUBCjhYuzKbJOY4b', // Empty fileUrl will hide the `Download Resume` button.
+      'https://storage.googleapis.com/nk-web-assets/William_Aronson_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
