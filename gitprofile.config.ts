@@ -20,7 +20,10 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['waronson/React-Native-Dating-App', 'waronson/rust-fps-server'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [
+            'waronson/React-Native-Dating-App',
+            'waronson/rust-fps-server',
+          ], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -46,7 +49,7 @@ const CONFIG = {
             'One of the first "metaverse" apps, Metabrite was a social space that supported hundreds of users in a single room.',
           imageUrl:
             'https://storage.googleapis.com/nk-web-assets/movie_001.00_00_00_00.Still001.jpg',
-			link: 'https://www.youtube.com/watch?v=DgOfbsHYdhc'
+          link: 'https://www.youtube.com/watch?v=DgOfbsHYdhc',
         },
         {
           title: 'Vital Recall',
@@ -54,14 +57,16 @@ const CONFIG = {
             'A short interactive learning experience, showing off the inside of the human circulatory system.',
           imageUrl:
             'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-16-10h45m02s090.png',
-			link: 'https://youtu.be/C2Drye0MqQI'
+          link: 'https://youtu.be/C2Drye0MqQI',
         },
-		{
-			title: 'Vital Recall CSL Platform',
-			description: 'An augmented reality platform for clinical trial education, designed to inform patients in an engaging, easy to use app.',
-			imageUrl: 'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-23-11h58m49s676.png',
-			link: 'https://www.youtube.com/shorts/Qg6j53r6Jf8'
-		}
+        {
+          title: 'Vital Recall CSL Platform',
+          description:
+            'An augmented reality platform for clinical trial education, designed to inform patients in an engaging, easy to use app.',
+          imageUrl:
+            'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-23-11h58m49s676.png',
+          link: 'https://www.youtube.com/shorts/Qg6j53r6Jf8',
+        },
       ],
     },
   },
@@ -84,8 +89,8 @@ const CONFIG = {
     'C#',
     'Java',
     'Rust',
-	'Kotlin',
-	'Swift',
+    'Kotlin',
+    'Swift',
     'JavaScript',
     'TypeScript',
     'Unity',
@@ -98,9 +103,9 @@ const CONFIG = {
     'Git',
     'Docker',
     'AWS',
-	'Azure',
+    'Azure',
     'ASP.NET',
-	'GLSL/HLSL'
+    'GLSL/HLSL',
   ],
   experiences: [
     {

@@ -74,9 +74,8 @@ const ExternalProjectCard = ({
         onClick={(e) => {
           e.preventDefault();
 
-			if (item.link == '')
-				return;
-			
+          if (item.link == '') return;
+
           try {
             if (googleAnalyticId) {
               ga.event('Click External Project', {
