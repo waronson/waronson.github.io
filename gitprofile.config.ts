@@ -28,7 +28,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -66,6 +66,21 @@ const CONFIG = {
           imageUrl:
             'https://storage.googleapis.com/nk-web-assets/vlcsnap-2026-04-23-11h58m49s676.png',
           link: 'https://www.youtube.com/shorts/Qg6j53r6Jf8',
+        },
+        {
+          title: 'Archivist',
+          description:
+            'Part of the Stream Team Game Jam 2015. Playable in browser, check it out!',
+          imageUrl:
+            'https://img.itch.zone/aW1nLzE5ODA0NDk4LnBuZw==/original/TxoPQa.png',
+          link: 'https://codifyllc.itch.io/archivist',
+        },
+        {
+          title: 'Void Echo',
+          description: 'Submission to the GameDev.tv Game Jam 2023.',
+          imageUrl:
+            'https://storage.googleapis.com/nk-web-assets/Screenshot%202026-05-04%20114323.png',
+          link: 'https://codifyllc.itch.io/void-echo',
         },
       ],
     },
